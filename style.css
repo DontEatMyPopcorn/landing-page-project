@@ -1,0 +1,152 @@
+body {
+
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-links {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.body {
+    
+}
+
+.body1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 100px 150px;
+    align-items: center;
+}
+.body1a {
+    width: 300px;
+}
+.title {
+    /* <to do> font? */
+    font-size: 48px;
+    font-weight: 800;
+    color: #E5E7EB;
+}
+.subtitle {
+    /* <to do> font? */
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.body1b {
+    color: #E5E7EB;
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+}
+.body2 {
+    display: flex;
+    flex-direction: column; 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 200px 100px;
+    align-items: center;
+}
+.body2a {
+    /* <to do> font? */
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.body2b {
+    display: flex;
+    gap: 20px;
+}
+.illustration {
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+}
+.pair {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.pair div {
+    text-align: center;
+    padding: 5px;
+}
+.body3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 110px 100px
+}
+.quote {
+    /* <to do> font? */
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.author {
+    display:flex;
+    justify-content:flex-end;
+    font-weight:bold;
+    font-size: 24px;
+    padding-right: 40px;
+}
+
+.body4 {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 150px;
+    height: 100px;
+    flex: 1;
+    border-radius:8px;
+}
+
+.body4a {
+    display: flex;
+    flex-direction:column;
+    padding: 10px 50px;
+    justify-content:center;
+    color: #F9FAF8;
+}
+.call {
+    font-weight: bold;
+    font-size: 24px;
+}
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up button {
+    border: 2px white solid;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+}
