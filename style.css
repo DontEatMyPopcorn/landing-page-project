@@ -1,5 +1,5 @@
 body {
-
+    margin: 0px;
 }
 
 .header {
@@ -12,11 +12,14 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    padding: 5px;
 }
 .header-links {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 5px;
+    gap: 20px;
 }
 
 .body {
@@ -33,6 +36,10 @@ body {
 }
 .body1a {
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
 }
 .title {
     /* <to do> font? */
@@ -57,8 +64,14 @@ body {
 button {
     background-color: #3882F6;
     color: white;
+    padding: 6px 10px;
     border-radius: 6px;
 }
+.body1a button {
+    width: 100px;
+    flex: 0;
+}
+
 .body2 {
     display: flex;
     flex-direction: column; 
@@ -82,7 +95,7 @@ button {
     height: 100px;
     width: 100px;
     border-radius: 25px;
-    border: 2px solid #3882F6;
+    border: 4px solid #3882F6;
 }
 .pair {
     display:flex;
@@ -149,4 +162,7 @@ button {
 
 .footer {
     background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
 }
